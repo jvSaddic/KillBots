@@ -668,16 +668,6 @@
 		vrLen = 902;
 		vrLoc = 0;
 	};
-	0609820711CAF300004D1B48 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 271F9E0C10A940D6008DC1B6 /* MyStoreObserver.h */;
-		name = "MyStoreObserver.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 435;
-		vrLoc = 0;
-	};
 	0609820B11CAF300004D1B48 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 271F9D7010A000A1008DC1B6 /* BonusLevelsViewController.h */;
@@ -1427,16 +1417,6 @@
 		rType = 0;
 		vrLen = 904;
 		vrLoc = 815;
-	};
-	066BABDD10D192A7005C8005 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 271F9E0D10A940D6008DC1B6 /* MyStoreObserver.m */;
-		name = "MyStoreObserver.m: 52";
-		rLen = 0;
-		rLoc = 1510;
-		rType = 0;
-		vrLen = 1292;
-		vrLoc = 870;
 	};
 	0673A6170F85559D00DF6F54 /* Game.h */ = {
 		uiCtxt = {
@@ -2765,26 +2745,6 @@
 		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKError.h;
 		sourceTree = "<absolute>";
 	};
-	06EB875F11EECBA000E5AF93 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 271F9E0D10A940D6008DC1B6 /* MyStoreObserver.m */;
-		name = "MyStoreObserver.m: 22";
-		rLen = 0;
-		rLoc = 474;
-		rType = 0;
-		vrLen = 792;
-		vrLoc = 80;
-	};
-	06EB876011EECBA000E5AF93 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 271F9E0C10A940D6008DC1B6 /* MyStoreObserver.h */;
-		name = "MyStoreObserver.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 435;
-		vrLoc = 0;
-	};
 	06EB876111EECBA000E5AF93 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 2706C5A10F68C3E900A6F243 /* AiWarsViewController.m */;
@@ -2810,86 +2770,6 @@
 		name = SKError.h;
 		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKError.h;
 		sourceTree = "<absolute>";
-	};
-	06EB876411EECBA000E5AF93 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 271F9E0D10A940D6008DC1B6 /* MyStoreObserver.m */;
-		name = "MyStoreObserver.m: 23";
-		rLen = 56;
-		rLoc = 497;
-		rType = 0;
-		vrLen = 792;
-		vrLoc = 80;
-	};
-	06EB876511EECBA000E5AF93 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 271F9E0C10A940D6008DC1B6 /* MyStoreObserver.h */;
-		name = "MyStoreObserver.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 435;
-		vrLoc = 0;
-	};
-	06EB876611EECBA000E5AF93 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 271F9E0D10A940D6008DC1B6 /* MyStoreObserver.m */;
-		name = "MyStoreObserver.m: 23";
-		rLen = 56;
-		rLoc = 497;
-		rType = 0;
-		vrLen = 792;
-		vrLoc = 80;
-	};
-	06EB876711EECBA000E5AF93 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 271F9E0C10A940D6008DC1B6 /* MyStoreObserver.h */;
-		name = "MyStoreObserver.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 435;
-		vrLoc = 0;
-	};
-	06EB876811EECBA000E5AF93 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 271F9E0D10A940D6008DC1B6 /* MyStoreObserver.m */;
-		name = "MyStoreObserver.m: 23";
-		rLen = 56;
-		rLoc = 497;
-		rType = 0;
-		vrLen = 792;
-		vrLoc = 80;
-	};
-	06EB876911EECBA000E5AF93 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 271F9E0C10A940D6008DC1B6 /* MyStoreObserver.h */;
-		name = "MyStoreObserver.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 435;
-		vrLoc = 0;
-	};
-	06EB876A11EECBA000E5AF93 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 271F9E0D10A940D6008DC1B6 /* MyStoreObserver.m */;
-		name = "MyStoreObserver.m: 22";
-		rLen = 0;
-		rLoc = 474;
-		rType = 0;
-		vrLen = 792;
-		vrLoc = 80;
-	};
-	06EB876E11EECBA000E5AF93 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 271F9E0C10A940D6008DC1B6 /* MyStoreObserver.h */;
-		name = "MyStoreObserver.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 435;
-		vrLoc = 0;
 	};
 	06EC3CC110155F2D0020BD08 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -2992,20 +2872,6 @@
 			sepNavIntBoundsRect = "{{0, 0}, {1146, 1808}}";
 			sepNavSelRange = "{256, 0}";
 			sepNavVisRange = "{0, 902}";
-		};
-	};
-	271F9E0C10A940D6008DC1B6 /* MyStoreObserver.h */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {828, 553}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 435}";
-		};
-	};
-	271F9E0D10A940D6008DC1B6 /* MyStoreObserver.m */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1258, 1280}}";
-			sepNavSelRange = "{497, 56}";
-			sepNavVisRange = "{382, 472}";
 		};
 	};
 	271F9F3C10B2688D008DC1B6 /* BonusLevelRounds.m */ = {

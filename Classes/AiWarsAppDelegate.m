@@ -52,11 +52,6 @@
 	//[window addSubview:mainMenuViewController.view];
     [window setRootViewController:mainMenuViewController];
 	//[mainMenuViewController.view setAlpha:0];
-	
-    //create a store observer for in-app purchases
-    storeObserver = [[MyStoreObserver alloc] init];
-    [[SKPaymentQueue defaultQueue] addTransactionObserver:storeObserver];
-	[storeObserver setMainMenuViewController:mainMenuViewController];
 
 	//show the window
     [window makeKeyAndVisible];

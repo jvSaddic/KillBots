@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -41,8 +41,6 @@
 		062DAF9A11EEB2BA008FCC26 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062DAF8C11EEB2BA008FCC26 /* OpenGLES.framework */; };
 		062DAF9B11EEB2BA008FCC26 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062DAF8D11EEB2BA008FCC26 /* QuartzCore.framework */; };
 		062DAF9C11EEB2BA008FCC26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062DAF8E11EEB2BA008FCC26 /* UIKit.framework */; };
-		065791642181B8400043B036 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279D3FDC11EECE370018F4F8 /* StoreKit.framework */; };
-		065791652181B89C0043B036 /* MyStoreObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 271F9E0D10A940D6008DC1B6 /* MyStoreObserver.m */; };
 		0664F9860FF87EAA0031699B /* default_weapon_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0664F9850FF87EA90031699B /* default_weapon_sound.wav */; };
 		0664F9870FF87EAA0031699B /* default_weapon_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0664F9850FF87EA90031699B /* default_weapon_sound.wav */; };
 		0664FB2E0FF9E6BC0031699B /* SinglePlayerIntro.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0664FB2D0FF9E6BC0031699B /* SinglePlayerIntro.xib */; };
@@ -199,7 +197,6 @@
 		271F9D6F10A00032008DC1B6 /* BonusLevels.xib in Resources */ = {isa = PBXBuildFile; fileRef = 271F9D6E10A00032008DC1B6 /* BonusLevels.xib */; };
 		271F9D7310A000A1008DC1B6 /* BonusLevelsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 271F9D7110A000A1008DC1B6 /* BonusLevelsViewController.m */; };
 		271F9E0810A006D3008DC1B6 /* star_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 271F9E0710A006D3008DC1B6 /* star_small.png */; };
-		271F9E0E10A940D6008DC1B6 /* MyStoreObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 271F9E0D10A940D6008DC1B6 /* MyStoreObserver.m */; };
 		271F9ED010B25F55008DC1B6 /* star_small_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 271F9ECF10B25F54008DC1B6 /* star_small_grey.png */; };
 		271F9F3D10B2688D008DC1B6 /* BonusLevelRounds.m in Sources */ = {isa = PBXBuildFile; fileRef = 271F9F3C10B2688D008DC1B6 /* BonusLevelRounds.m */; };
 		271FA10B10BD04BF008DC1B6 /* please_wait.png in Resources */ = {isa = PBXBuildFile; fileRef = 271FA10A10BD04BF008DC1B6 /* please_wait.png */; };
@@ -331,7 +328,6 @@
 		279CE76C1040C5FA0057B2E7 /* explosion7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 279CE76A1040C5FA0057B2E7 /* explosion7.wav */; };
 		279CE7BB1040D8370057B2E7 /* singleplayer_story1.png in Resources */ = {isa = PBXBuildFile; fileRef = 279CE7BA1040D8370057B2E7 /* singleplayer_story1.png */; };
 		279CE7C51040D9FB0057B2E7 /* singleplayer_story2.png in Resources */ = {isa = PBXBuildFile; fileRef = 279CE7C41040D9FB0057B2E7 /* singleplayer_story2.png */; };
-		279D3FDD11EECE370018F4F8 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279D3FDC11EECE370018F4F8 /* StoreKit.framework */; };
 		27A0517D10242D03005BAEAB /* fatman_master_bot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A0517C10242D03005BAEAB /* fatman_master_bot1.png */; };
 		27A051DA102432F5005BAEAB /* fatman_master_bot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A051D7102432F5005BAEAB /* fatman_master_bot2.png */; };
 		27A051DB102432F5005BAEAB /* fatman_master_bot3.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A051D8102432F5005BAEAB /* fatman_master_bot3.png */; };
@@ -524,8 +520,6 @@
 		271F9D7010A000A1008DC1B6 /* BonusLevelsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BonusLevelsViewController.h; sourceTree = "<group>"; };
 		271F9D7110A000A1008DC1B6 /* BonusLevelsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BonusLevelsViewController.m; sourceTree = "<group>"; };
 		271F9E0710A006D3008DC1B6 /* star_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star_small.png; path = Resources/star_small.png; sourceTree = "<group>"; };
-		271F9E0C10A940D6008DC1B6 /* MyStoreObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyStoreObserver.h; sourceTree = "<group>"; };
-		271F9E0D10A940D6008DC1B6 /* MyStoreObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyStoreObserver.m; sourceTree = "<group>"; };
 		271F9ECF10B25F54008DC1B6 /* star_small_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star_small_grey.png; path = Resources/star_small_grey.png; sourceTree = "<group>"; };
 		271F9F3C10B2688D008DC1B6 /* BonusLevelRounds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BonusLevelRounds.m; sourceTree = "<group>"; };
 		271F9F3E10B2689E008DC1B6 /* BonusLevelRounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BonusLevelRounds.h; sourceTree = "<group>"; };
@@ -668,7 +662,6 @@
 		279CE76A1040C5FA0057B2E7 /* explosion7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = explosion7.wav; path = Resources/sounds/explosion7.wav; sourceTree = "<group>"; };
 		279CE7BA1040D8370057B2E7 /* singleplayer_story1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = singleplayer_story1.png; path = Resources/singleplayer_story1.png; sourceTree = "<group>"; };
 		279CE7C41040D9FB0057B2E7 /* singleplayer_story2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = singleplayer_story2.png; path = Resources/singleplayer_story2.png; sourceTree = "<group>"; };
-		279D3FDC11EECE370018F4F8 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		27A0517C10242D03005BAEAB /* fatman_master_bot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fatman_master_bot1.png; path = Resources/fatman_master_bot1.png; sourceTree = "<group>"; };
 		27A051D7102432F5005BAEAB /* fatman_master_bot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fatman_master_bot2.png; path = Resources/fatman_master_bot2.png; sourceTree = "<group>"; };
 		27A051D8102432F5005BAEAB /* fatman_master_bot3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fatman_master_bot3.png; path = Resources/fatman_master_bot3.png; sourceTree = "<group>"; };
@@ -745,7 +738,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				065791642181B8400043B036 /* StoreKit.framework in Frameworks */,
 				062DAF8F11EEB2BA008FCC26 /* AudioToolbox.framework in Frameworks */,
 				062DAF9011EEB2BA008FCC26 /* AVFoundation.framework in Frameworks */,
 				062DAF9111EEB2BA008FCC26 /* CoreGraphics.framework in Frameworks */,
@@ -767,7 +759,6 @@
 				062DAF9A11EEB2BA008FCC26 /* OpenGLES.framework in Frameworks */,
 				062DAF9B11EEB2BA008FCC26 /* QuartzCore.framework in Frameworks */,
 				062DAF9C11EEB2BA008FCC26 /* UIKit.framework in Frameworks */,
-				279D3FDD11EECE370018F4F8 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -992,8 +983,6 @@
 				27E2630A1059FDEE00DA2047 /* UnlockedViewController.m */,
 				271F9D7010A000A1008DC1B6 /* BonusLevelsViewController.h */,
 				271F9D7110A000A1008DC1B6 /* BonusLevelsViewController.m */,
-				271F9E0C10A940D6008DC1B6 /* MyStoreObserver.h */,
-				271F9E0D10A940D6008DC1B6 /* MyStoreObserver.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1272,7 +1261,6 @@
 				062DAF8C11EEB2BA008FCC26 /* OpenGLES.framework */,
 				062DAF8D11EEB2BA008FCC26 /* QuartzCore.framework */,
 				062DAF8E11EEB2BA008FCC26 /* UIKit.framework */,
-				279D3FDC11EECE370018F4F8 /* StoreKit.framework */,
 			);
 			includeInIndex = 1;
 			name = Frameworks;
@@ -1322,7 +1310,8 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1530;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AiWars" */;
 			compatibilityVersion = "Xcode 3.1";
@@ -1330,6 +1319,7 @@
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
@@ -1647,7 +1637,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				065791652181B89C0043B036 /* MyStoreObserver.m in Sources */,
 				0668948D0F9CE55F00FAE698 /* main.m in Sources */,
 				066894A30F9CE63700FAE698 /* SimulationAppDelegate.m in Sources */,
 				066894AD0F9CE7AD00FAE698 /* SimulationObject.m in Sources */,
@@ -1736,7 +1725,6 @@
 				27E2630C1059FDEE00DA2047 /* UnlockedViewController.m in Sources */,
 				06CEDC1F106BA7E20091BAA0 /* SlySwitch.m in Sources */,
 				271F9D7310A000A1008DC1B6 /* BonusLevelsViewController.m in Sources */,
-				271F9E0E10A940D6008DC1B6 /* MyStoreObserver.m in Sources */,
 				271F9F3D10B2688D008DC1B6 /* BonusLevelRounds.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1751,6 +1739,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.1;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1763,9 +1752,9 @@
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
 				INFOPLIST_FILE = "Simulation-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = "";
-				PREBINDING = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = org.slyco.aiwars.simulation;
 				PRODUCT_NAME = Simulation;
 				SDKROOT = iphoneos;
@@ -1779,21 +1768,21 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
 				INFOPLIST_FILE = "Simulation-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = "";
-				PREBINDING = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = org.slyco.aiwars.simulation;
 				PRODUCT_NAME = Simulation;
 				SDKROOT = iphoneos;
@@ -1806,7 +1795,13 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = NO;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1.1;
+				DEVELOPMENT_TEAM = 49AU34NXHG;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1817,10 +1812,19 @@
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AiWars_Prefix.pch;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBC_WARNINGS = NO;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.slyco.killbots;
+				INFOPLIST_KEY_CFBundleDisplayName = KillBots;
+				INFOPLIST_KEY_NSMainNibFile = MainWindow;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeLeft;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = org.slyco.killbots1777qasd;
 				PRODUCT_NAME = AiWars;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1831,8 +1835,13 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jeremiah Gage (5F4KM672LY)";
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = NO;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1.1;
+				DEVELOPMENT_TEAM = 49AU34NXHG;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1842,11 +1851,20 @@
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AiWars_Prefix.pch;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBC_WARNINGS = NO;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.slyco.killbots;
+				INFOPLIST_KEY_CFBundleDisplayName = KillBots;
+				INFOPLIST_KEY_NSMainNibFile = MainWindow;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeLeft;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = org.slyco.killbots1777q;
 				PRODUCT_NAME = AiWars;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "561B606B-2B47-49A8-B63C-097715364B1B";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1855,6 +1873,7 @@
 		27F04FDB100C29F500EA1983 /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -1867,6 +1886,7 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1874,6 +1894,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jeremiah Gage";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1882,9 +1903,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				ONLY_ACTIVE_ARCH = YES;
-				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "922BB15F-CFD9-4D9A-840A-928BD708E4B8";
 				SDKROOT = iphoneos;
 			};
@@ -1895,8 +1915,13 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = NO;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1.1;
+				DEVELOPMENT_TEAM = 49AU34NXHG;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1906,11 +1931,20 @@
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AiWars_Prefix.pch;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBC_WARNINGS = NO;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.slyco.killbots;
+				INFOPLIST_KEY_CFBundleDisplayName = KillBots;
+				INFOPLIST_KEY_NSMainNibFile = MainWindow;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeLeft;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = org.slyco.killbots1777qasd;
 				PRODUCT_NAME = AiWars;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1923,21 +1957,21 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
 				INFOPLIST_FILE = "Simulation-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = "";
-				PREBINDING = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = org.slyco.aiwars.simulation;
 				PRODUCT_NAME = Simulation;
 				SDKROOT = iphoneos;
@@ -1948,6 +1982,7 @@
 		27F04FE3100C2B2A00EA1983 /* Ad Hoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -1960,6 +1995,7 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1968,6 +2004,7 @@
 				CODE_SIGN_ENTITLEMENTS = dist.plist;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jeremiah Gage";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1976,9 +2013,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				ONLY_ACTIVE_ARCH = YES;
-				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B24B9E0E-9175-46C0-89E7-13E8E83AB9EE";
 				SDKROOT = iphoneos;
 			};
@@ -1989,8 +2025,13 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jeremiah Gage";
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = NO;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1.1;
+				DEVELOPMENT_TEAM = 49AU34NXHG;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2000,11 +2041,20 @@
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AiWars_Prefix.pch;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBC_WARNINGS = NO;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.slyco.killbots;
+				INFOPLIST_KEY_CFBundleDisplayName = KillBots;
+				INFOPLIST_KEY_NSMainNibFile = MainWindow;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeLeft;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = org.slyco.killbots1777q;
 				PRODUCT_NAME = AiWars;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B24B9E0E-9175-46C0-89E7-13E8E83AB9EE";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -2017,21 +2067,21 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
 				INFOPLIST_FILE = "Simulation-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = "";
-				PREBINDING = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = org.slyco.aiwars.simulation;
 				PRODUCT_NAME = Simulation;
 				SDKROOT = iphoneos;
@@ -2042,6 +2092,7 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -2054,6 +2105,7 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -2062,6 +2114,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -2070,9 +2123,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				ONLY_ACTIVE_ARCH = YES;
-				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
@@ -2081,6 +2133,7 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -2093,6 +2146,7 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -2100,6 +2154,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jeremiah Gage (5F4KM672LY)";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -2108,9 +2163,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				ONLY_ACTIVE_ARCH = YES;
-				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4FA1D582-4CFC-4CD9-8839-E74CE6FAD62A";
 				SDKROOT = iphoneos;
 			};

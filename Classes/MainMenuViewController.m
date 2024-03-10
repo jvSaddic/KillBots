@@ -547,20 +547,6 @@
 #if TESTING
 		[self unlockApp];
 #else
-		[pleaseWaitImage setAlpha:1];
-		NSLog(@"payment");
-		if ([SKPaymentQueue canMakePayments])
-		{
-			NSLog(@"payments are enabled");
-			SKPayment *payment = [SKPayment paymentWithProductIdentifier:@"unlocked"];
-			NSLog(@"payment created");
-			[[SKPaymentQueue defaultQueue] addPayment:payment];
-			NSLog(@"payment added");
-		}
-		else
-		{
-			NSLog(@"payments are disabled");
-		}
 #endif
 	}
 }

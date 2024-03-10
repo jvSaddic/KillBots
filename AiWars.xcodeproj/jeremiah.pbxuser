@@ -574,20 +574,6 @@
 		vrLen = 969;
 		vrLoc = 0;
 	};
-	271F9E0C10A940D6008DC1B6 /* MyStoreObserver.h */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1451, 583}}";
-			sepNavSelRange = "{627, 0}";
-			sepNavVisRange = "{0, 634}";
-		};
-	};
-	271F9E0D10A940D6008DC1B6 /* MyStoreObserver.m */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1231, 1092}}";
-			sepNavSelRange = "{519, 19}";
-			sepNavVisRange = "{231, 600}";
-		};
-	};
 	271F9E9710B25C98008DC1B6 /* StoreKit.h */ = {
 		isa = PBXFileReference;
 		lastKnownFileType = sourcecode.c.h;
@@ -1104,16 +1090,6 @@
 		name = CGContext.h;
 		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGContext.h;
 		sourceTree = "<absolute>";
-	};
-	2756E26911EEE0AC00A923D3 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 279D3FF111EECEB70018F4F8 /* SKPaymentQueue.h */;
-		name = "SKPaymentQueue.h: 7";
-		rLen = 0;
-		rLoc = 95;
-		rType = 0;
-		vrLen = 2423;
-		vrLoc = 0;
 	};
 	2756E26A11EEE0AC00A923D3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -1890,26 +1866,6 @@
 		vrLen = 1903;
 		vrLoc = 0;
 	};
-	279D3FEA11EECEB70018F4F8 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 271F9E0D10A940D6008DC1B6 /* MyStoreObserver.m */;
-		name = "MyStoreObserver.m: 60";
-		rLen = 64;
-		rLoc = 1656;
-		rType = 0;
-		vrLen = 1969;
-		vrLoc = 193;
-	};
-	279D3FEB11EECEB70018F4F8 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 271F9E0C10A940D6008DC1B6 /* MyStoreObserver.h */;
-		name = "MyStoreObserver.h: 22";
-		rLen = 0;
-		rLoc = 627;
-		rType = 0;
-		vrLen = 634;
-		vrLoc = 0;
-	};
 	279D3FEC11EECEB70018F4F8 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 271F9E9710B25C98008DC1B6 /* StoreKit.h */;
@@ -1919,35 +1875,6 @@
 		rType = 0;
 		vrLen = 366;
 		vrLoc = 0;
-	};
-	279D3FED11EECEB70018F4F8 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 279D3FEE11EECEB70018F4F8 /* SKPayment.h */;
-		name = "SKPayment.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1418;
-		vrLoc = 0;
-	};
-	279D3FEE11EECEB70018F4F8 /* SKPayment.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = SKPayment.h;
-		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h;
-		sourceTree = "<absolute>";
-	};
-	279D3FF111EECEB70018F4F8 /* SKPaymentQueue.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = SKPaymentQueue.h;
-		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentQueue.h;
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {3127, 924}}";
-			sepNavSelRange = "{95, 0}";
-			sepNavVisRange = "{0, 2423}";
-		};
 	};
 	279E74C710C37B240033BC14 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;

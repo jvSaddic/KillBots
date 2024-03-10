@@ -8,13 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "MainMenuViewController.h"
-#import "MyStoreObserver.h"
 
 @interface AiWarsAppDelegate : NSObject <UIApplicationDelegate>
 {
     UIWindow *window;
 	MainMenuViewController *mainMenuViewController;
-	MyStoreObserver *storeObserver;
 }
 
 @property ATOMICITY_RETAIN IBOutlet UIWindow *window;
