@@ -36,7 +36,7 @@
 {
 	playSound(clickSound);
 	[[[[[singlePlayerMenuViewController mainMenuViewController] aiWarsViewController] bonusLevelRounds] configuration] removeAllObjects];
-	[[[[singlePlayerMenuViewController mainMenuViewController] aiWarsViewController] theGame] setRound:[sender tag]];
+	[[[[singlePlayerMenuViewController mainMenuViewController] aiWarsViewController] theGame] setRound: (int) [sender tag]];
 	[[[[singlePlayerMenuViewController mainMenuViewController] aiWarsViewController] theGame] setGameType:GAME_TYPE_BONUS_LEVEL];
 	[[singlePlayerMenuViewController mainMenuViewController] startBonusLevel];
 }

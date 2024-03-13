@@ -47,7 +47,7 @@
 	{
 		NSMutableArray *bots;
 		float life, totalLife;
-		const int playerCount = [players count];
+		const int playerCount = (int) [players count];
 		int numPlayersLeft = 0;
 		bool alive;
 		bool playersAlive[playerCount];

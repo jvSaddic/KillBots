@@ -8,7 +8,7 @@
 
 #import "Sounds.h"
 
-void loadSounds()
+void loadSounds(void)
 {
 	sounds = [[NSMutableArray alloc] initWithCapacity:20];
 	soundIsOn = true;
@@ -73,7 +73,7 @@ void loadSounds()
 	preBattleSound = loadAVAudioPlayer(@"dramatic_orchestra_02_until_they_came_L2");
 }
 
-void unloadSounds()
+void unloadSounds(void)
 {
 //	[soundEngine release];
 	[sounds release];
@@ -130,7 +130,7 @@ void stopSoundLoop(AVAudioPlayer *audioPlayer)
 	[audioPlayer stop];
 }
 
-void stopAllSounds()
+void stopAllSounds(void)
 {
 	for (int i = 0; i < [sounds count]; i++)
 	{
@@ -139,7 +139,7 @@ void stopAllSounds()
 	}
 }
 
-void vibrate()
+void vibrate(void)
 {
 	AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
 }

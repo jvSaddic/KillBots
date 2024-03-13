@@ -66,7 +66,7 @@
 - (void)registerBot:(Bot *)bot
 {
 	[botTypes addObject:bot];
-	[bot setType:[botTypes indexOfObject:bot]];
+	[bot setType: (int) [botTypes indexOfObject:bot]];
 }
 
 - (void)selectBot:(Bot *)bot
@@ -116,7 +116,7 @@
 	[self setPlayer:player fundsTo:[player funds]];
 	
 	//set the bot number
-	[botNumberLabel setText:[NSString stringWithFormat:@"Bot %i", [[player bots] indexOfObject:bot]+1]];
+    [botNumberLabel setText:[NSString stringWithFormat:@"Bot %lu", (unsigned long)([[player bots] indexOfObject:bot]+1)]];
 }
 
 - (IBAction)done:(id)sender

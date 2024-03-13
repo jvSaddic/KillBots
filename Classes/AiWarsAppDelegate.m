@@ -33,7 +33,7 @@
 #endif
 
 	//seed the random generator
-	srandom(time(NULL));
+	srandom((unsigned int) time(NULL));
 	
 	//prevent the phone from turning off
 	[UIApplication sharedApplication].idleTimerDisabled = YES;

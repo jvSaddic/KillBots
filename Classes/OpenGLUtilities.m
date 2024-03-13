@@ -146,7 +146,7 @@ void loadTexture(NSString *file, GLuint *name)
 		glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
 		
 		// Specify a 2D texture image, providing the pointer to the image data in memory
-		glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, spriteData);
+		glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, (int) width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, spriteData);
 
 		glGenerateMipmapOES(GL_TEXTURE_2D);
 

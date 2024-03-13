@@ -37,7 +37,7 @@
 	cycleNum++;
 	frameCount++;
 	
-	int count = [updateable_objects count], i;
+	int count = (int) [updateable_objects count], i;
 	
 	if (count > 0)
 	{

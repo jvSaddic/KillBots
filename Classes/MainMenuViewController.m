@@ -158,7 +158,7 @@
 {
 	[singlePlayerViewController setHasSelected:false]; 
 	
-	[[singlePlayerViewController topScore] setText:[NSString stringWithFormat:@"Personal Best: %d", [[NSUserDefaults standardUserDefaults] integerForKey:@"singlePlayerTopScore"]]];
+    [[singlePlayerViewController topScore] setText:[NSString stringWithFormat:@"Personal Best: %ld", (long)[[NSUserDefaults standardUserDefaults] integerForKey:@"singlePlayerTopScore"]]];
 	
 	[UIView beginAnimations:@"showSinglePlayerMenu" context:nil];
 	[UIView setAnimationDuration:0.3f];
@@ -607,5 +607,8 @@
 	[super dealloc];
 }
 
+
+- (void)hideInstructions {
+}
 
 @end

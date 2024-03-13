@@ -300,7 +300,7 @@
 	}
 	else if (tableView == baseTable)
 	{
-		[[cell viewWithTag:12] setImage:[UIImage imageNamed:[NSString stringWithFormat:@"base_bot%i.png",(indexPath.row+1)]]];
+        [[cell viewWithTag:12] setImage:[UIImage imageNamed:[NSString stringWithFormat:@"base_bot%li.png",(long)(indexPath.row+1)]]];
 
 		//checkmark
 		if (indexPath.row == selectedBase)
@@ -321,11 +321,11 @@
 
 	if (tableView == colorTable)
 	{
-		selectedColor = indexPath.row;
+		selectedColor = (int) indexPath.row;
 	}
 	else if (tableView == baseTable)
 	{
-		selectedBase = indexPath.row;
+		selectedBase = (int) indexPath.row;
 	}
 
 	for (UITableViewCell *cell in [tableView visibleCells])
